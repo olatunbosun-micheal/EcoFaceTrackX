@@ -18,6 +18,7 @@ from django.urls import path
 from django.contrib.auth import views as auth_views
 from recognition import views as recog_views
 from users import views as users_views
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -41,3 +42,5 @@ urlpatterns = [
     path('logout', recog_views.logout, name='logout')
 
 ]
+
+urlpatterns += staticfiles_urlpatterns()

@@ -19,5 +19,5 @@ print(f"Precision: {precision:.2f}")
 print(f"Recall: {recall:.2f}")
 print(f"F1-Score: {f1:.2f}")
 
-report = classification_report(actual_attendance, predicted_attendance)
-print(report)
+# report = classification_report(actual_attendance, predicted_attendance)
+# print(report)
