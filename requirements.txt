@@ -12,7 +12,7 @@ Django
 django-crispy-forms
 django-heroku
 django-pandas
-dlib==19.22.1
+dlib
 face-recognition
 face-recognition-models
 ffmpeg
